@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Little Bloom Todo</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Caveat&family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="to-do-card">
+      <h1>✿ To Do List Awiwaw</h1>
+      <p class="subtitle">My Daily Tasks</p>
+      <div class="progress-box">
+        <h2>Keep Growing 🌷</h2>
+
+        <p>
+          <span id="doneCount">0</span>
+          /
+          <span id="totalCount">0</span>
+          tasks completed
+        </p>
+
+        <div class="progress">
+          <div id="progressBar"></div>
+        </div>
+      </div>
+      <div class="input-area">
+        <input id="taskInput" placeholder="Write your task..." />
+
+        <button id="addBtn">+</button>
+      </div>
+      <p id="warning"></p>
+      <ul id="taskList"></ul>
+      <div class="statistics">
+        <div>
+          <p>Total</p>
+
+          <h3 id="total">0</h3>
+        </div>
+
+        <div>
+          <p>Done</p>
+
+          <h3 id="done">0</h3>
+        </div>
+
+        <div>
+          <p>Left</p>
+
+          <h3 id="left">0</h3>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
